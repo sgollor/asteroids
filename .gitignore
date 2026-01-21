@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Runtime logs
+game_state.jsonl
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
