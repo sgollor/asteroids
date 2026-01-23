@@ -42,6 +42,7 @@ def main():
         screen.fill((0, 0, 0))
 
         updatable.update(dt)
+        player.shoot_cooldown_timer -= dt
 
         for drawable_obj in drawable:
             drawable_obj.draw(screen)
