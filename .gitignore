@@ -8,6 +8,7 @@ __pycache__/
 
 # Runtime logs
 game_state.jsonl
+game_events.jsonl
 
 # Editor / OS noise
 .DS_Store
